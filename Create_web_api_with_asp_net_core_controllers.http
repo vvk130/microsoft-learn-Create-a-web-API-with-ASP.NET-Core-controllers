@@ -1,0 +1,37 @@
+@Create_web_api_with_asp_net_core_controllers_HostAddress = http://localhost:5284
+
+GET {{Create_web_api_with_asp_net_core_controllers_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Create_web_api_with_asp_net_core_controllers_HostAddress}}/pizza/
+Accept: application/json
+
+###
+
+POST {{Create_web_api_with_asp_net_core_controllers_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Hawaii",
+    "isGlutenFree": false
+}
+
+###
+
+PUT {{Create_web_api_with_asp_net_core_controllers_HostAddress}}/pizza/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+###
+
+DELETE {{Create_web_api_with_asp_net_core_controllers_HostAddress}}/pizza/3
+
+###
+

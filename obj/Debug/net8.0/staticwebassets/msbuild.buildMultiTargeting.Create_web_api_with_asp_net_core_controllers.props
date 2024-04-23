@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Create_web_api_with_asp_net_core_controllers.props" />
+</Project>
